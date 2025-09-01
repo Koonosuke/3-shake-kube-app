@@ -72,3 +72,11 @@ kubectl get svc
 GitHub Actions + ArgoCD を組み合わせて GitOps 化
 
 MCP サーバーを利用した Kubernetes リソース管理の自動化実験
+
+## Terraform実行前
+
+CMD
+
+set AWS_PROFILE=eks-admin
+set AWS_REGION=ap-northeast-1
+
